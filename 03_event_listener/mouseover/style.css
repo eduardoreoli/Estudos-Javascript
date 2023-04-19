@@ -1,0 +1,13 @@
+#quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.area {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
