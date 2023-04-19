@@ -1,0 +1,40 @@
+.banner {
+  position: relative;
+  height: 600px;
+  width: 100%;
+    overflow: hidden; /* esconde a parte da imagem que ficar fora do banner */
+
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.mergulhador {
+  position: absolute;
+  bottom: 100px; /* a posição inicial do mergulhador */
+  left: 50%; /* centraliza o mergulhador na horizontal */
+  transform: translateX(-50%); /* ajusta a posição horizontal do mergulhador */
+}
+
+.mergulhador img {
+  height: 300px;
+  width: auto;
+  transform-origin: bottom center; /* define o ponto de origem da escala */
+
+}
+
+.container {
+    height: 2000px;
+}
+
+
+
+.ocean {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* esconde as ondas que ficar fora do banner */
+}
+
